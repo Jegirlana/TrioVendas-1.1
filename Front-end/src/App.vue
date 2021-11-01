@@ -10,14 +10,14 @@
 import Principal from './views/Principal.vue';
 import Produtos from './views/Produtos.vue';
 
-import CadUser from '@/components/CadUser.vue';
-import Clientes from '@/components/Clientes.vue';
-import Login from '@/components/Login.vue';
-import LoginFunc from '@/components/LoginFunc.vue'
-import AddCarrinho from '@/components/AddCarrinho.vue'
-import CadFuncionario from '@/components/CadFuncionario.vue'
-import Funcionarios from '@/components/Funcionarios.vue'
-import UpdateFuncionario from '@/components/UpdateFuncionario.vue'
+import CadUser from '@/features/customers/CadUser.vue';
+import Clientes from '@/features/customers/Clientes.vue';
+import Login from '@/features/customers/Login.vue';
+import LoginFunc from '@/features/employees/LoginFunc.vue'
+import AddCarrinho from '@/features/products/AddCarrinho.vue'
+import CadFuncionario from '@/features/employees/CadFuncionario.vue'
+import Funcionarios from '@/features/employees/Funcionarios.vue'
+import UpdateFuncionario from '@/features/employees/UpdateFuncionario.vue'
 
 export default {
   name: "App",

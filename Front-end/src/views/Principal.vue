@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import CadUser from "../components/CadUser.vue";
-import Clientes from "../components/Clientes.vue";
+import CadUser from "../features/customers/CadUser.vue";
+import Clientes from "../features/customers/Clientes.vue";
 
 export default {
   name: "Principal",
